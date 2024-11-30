@@ -1,0 +1,17 @@
+#first:focus{
+    border: 2px solid black !important;
+    outline: none;
+    background-color: #e8f0fe;
+}
+
+
+#second:focus{
+    border: 2px solid black !important;
+    outline: none;
+    background-color: #e8f0fe;
+}
+
+
+input:focus::placeholder {
+    opacity: 0; 
+  }
